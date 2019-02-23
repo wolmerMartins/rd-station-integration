@@ -27,9 +27,9 @@ class ConversionRDStationController {
     
     setInputsAttributes(input, value) {
     	let inputSetted = input;
-    	input.setAttribute("type", "text");
-		input.setAttribute("id", value);
-		input.setAttribute("name", value);
+    	inputSetted.setAttribute("type", "text");
+		inputSetted.setAttribute("id", value);
+		inputSetted.setAttribute("name", value);
 		return inputSetted;
     }
     
